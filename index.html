@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div id="main">
+    <div class="resultBox"><input type="text" id="result"></div>
+    <div class="row">
+        <button onclick="clearValue()">AC</button>
+        <button onclick="del()">DEL</button>
+        <button onclick="getNumber(this)">+/-</button>
+        <button onclick="getNumber(this)">/</button>
+    </div>
+    <div class="row">
+        <button onclick="getNumber(this)">7</button>
+        <button onclick="getNumber(this)">8</button>
+        <button onclick="getNumber(this)">9</button>
+        <button onclick="getNumber(this)">*</button>
+    </div>
+    <div class="row">
+        <button onclick="getNumber(this)">4</button>
+        <button onclick="getNumber(this)">5</button>
+        <button onclick="getNumber(this)">6</button>
+        <button onclick="getNumber(this)">-</button>
+    </div>
+    <div class="row">
+        <button onclick="getNumber(this)">1</button>
+        <button onclick="getNumber(this)">2</button>
+        <button onclick="getNumber(this)">3</button>
+        <button onclick="getNumber(this)">+</button>
+    </div>
+    <div class="row">
+        <button onclick="getNumber(this)">%</button>
+        <button onclick="getNumber(this)">0</button>
+        <button onclick="getNumber(this)">.</button>
+        <button onclick="getResult()">=</button>
+    </div>
+</div>
