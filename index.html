@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <div id="main">
-    <div class="resultBox"><input type="text" id="result"></div>
+    <div class="resultBox"><input type="text" id="result" readonly></div>
     <div class="row">
         <button onclick="clearValue()">AC</button>
         <button onclick="del()">DEL</button>
@@ -40,3 +40,7 @@
         <button onclick="getResult()">=</button>
     </div>
 </div>
+
+<script src="./app.js"></script>
+</body>
+</html>

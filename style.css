@@ -1,8 +1,42 @@
+body{
+  /* background-color: plum; */
+  background-image: url(./images-Barbie20Dolls20and20Pets-FPR48-1612424676484.jpg);
+
+}
 #main{
-    padding-left: 45%;
+  margin-top: 35px;
+    margin-left: 37%;
+    /* border: 1px solid red; */
+    height: 450px;
+    width: 25%;
+    padding-top: 30px;
+ border-radius: 20%;
+ background-image: url(./Parents-Barbie-Warner-Bros-Mattel-20767544bc0745789c8dc4ee200f6731.jpg);
   }
-  /* #resultBox{
-  border: 1px solid red;
-  width: 100px;
-  height: 40px;
-  } */
+  .row{
+    padding-left: 10%;
+  }
+  .resultBox{
+    padding-left: 9%;
+  }
+  .resultBox input{
+    width: 90%;
+    height: 50px;
+    border-radius: 35%;
+    border-style: none;
+  }
+
+  .row{
+padding: 10px;
+margin: 6px;
+padding-left: 15%;
+
+  }
+
+  .row button{
+    height: 50px;
+    width: 50px;
+border-radius: 50%;
+border-style: none;
+background-image: url(./360_F_194386584_rOFvpqR4fcQWHD25Woz7S7GyP9TIf7mN.jpg);
+  }
